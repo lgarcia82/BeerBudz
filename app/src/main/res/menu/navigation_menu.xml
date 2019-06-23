@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/nav_home"/>
+
+    <item
+        android:id="@+id/nav_friends"
+        android:title="Friends"
+        android:icon="@drawable/nav_friends"/>
+
+    <item
+        android:id="@+id/nav_my_beers"
+        android:title="My Beers"
+        android:icon="@drawable/nav_mybeers"/>
+
+    <item
+        android:id="@+id/nav_beers"
+        android:title="Beers"
+        android:icon="@drawable/nav_beers"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/nav_profile"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/nav_exit"/>
+
+</menu>

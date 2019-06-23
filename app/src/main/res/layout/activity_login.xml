@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_beer"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/logo_budz" />
+
+    <EditText
+        android:id="@+id/tbEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/icon_login_email"
+        android:ems="10"
+        android:hint=" Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/tbPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/icon_login_password"
+        android:ems="10"
+        android:hint=" Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tbPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_rounded_green"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:onClick="loginUser"
+        android:shape="rectangle"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:thicknessRatio="1.9"
+        android:typeface="normal" />
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_rounded_black"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:focusable="true"
+        android:onClick="signUpUser"
+        android:shape="rectangle"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:thicknessRatio="1.9"
+        android:typeface="normal" />
+
+
+</RelativeLayout>

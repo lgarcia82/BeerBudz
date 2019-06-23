@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "10533460760",
+    "firebase_url": "https://beerbudz-de6c6.firebaseio.com",
+    "project_id": "beerbudz-de6c6",
+    "storage_bucket": "beerbudz-de6c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10533460760:android:bbc5eafcac4294c0",
+        "android_client_info": {
+          "package_name": "com.example.beerbudz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10533460760-5thsaqn1142ud7g24bcarc1csafi19vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beerbudz",
+            "certificate_hash": "0881b5ecadfecb1e4b3c2c9bd276f03778ec8bc2"
+          }
+        },
+        {
+          "client_id": "10533460760-12etgsuaqba7if63lmmclurt2pmpj277.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD76_RXu5Bb-VCTA1U38GYwOQsVxYR6zOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10533460760-12etgsuaqba7if63lmmclurt2pmpj277.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
